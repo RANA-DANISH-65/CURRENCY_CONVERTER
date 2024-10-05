@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+
+
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        
+    </div>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form action="#">
+            <div class="input-group">
+                <label for="amount">Amount :</label>
+                <input type="text" name="amount" id="amount" placeholder="Enter amount">
+            </div>
+         <div class="dropdown">
+            <div class="from">
+                <p>From</p>
+                <div class="flag-container">
+                    <img src="https://flagsapi.com/PK/flat/64.png" alt="from-country">
+                    <select name="from" id="from">
+                    </select>
+                </div>
+            </div>
+            <div class="to">
+                <p>To</p>
+                <div class="flag-container">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="to-country">
+                    <select name="to" id="to">
+                    </select>
+                </div>
+            </div>
+         </div>
+         <button id="btn">GET EXCHANGE</button>
+         <div class="msg">
+            WELCOME....
+         </div>
+        </form>
+    </div>
+    <script src="script .js"></script>
+   
+
+</body>
+</html>
